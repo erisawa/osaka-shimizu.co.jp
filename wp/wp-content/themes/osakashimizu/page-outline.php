@@ -137,7 +137,7 @@ get_header();
                         </tr>
                         <tr>
                             <th>マネジメントシステム登録</th>
-                            <td>ISO9001:2015/JISQ9001:2015</td>
+                            <td>ISO9001:2015/JISQ9001:2015　<a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/iso9001_tourokusho.pdf" target="_blank">登録証[PDF]</a></td>
                         </tr>
                     </table>
                 </div>
