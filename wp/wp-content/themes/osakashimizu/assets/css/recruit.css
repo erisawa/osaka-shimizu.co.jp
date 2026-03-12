@@ -1,0 +1,974 @@
+@charset "UTF-8";
+/*-----------------------------------
+	RECRUIT FRONT
+-----------------------------------*/
+.page-recruit .page-heading,
+.is-recruit-child .page-heading,
+.single-recruit_newgrad .page-heading,
+.single-recruit_midcareer .page-heading {
+	display: block;
+	padding: 160px 0 0;
+	height: 400px;
+	background: #0069B7;
+	color: #FFF;
+	text-align: center;
+	overflow: hidden;
+}
+.page-recruit .recruit-heading,
+.is-recruit-child .recruit-heading,
+.single-recruit_newgrad .recruit-heading,
+.single-recruit_midcareer .recruit-heading {
+	position: relative;
+	display: inline-block;
+	width: 740px;
+	max-width: 100%;
+	padding: 0 0 60px 0;
+}
+.page-recruit .page-heading-ja,
+.is-recruit-child .page-heading-ja,
+.single-recruit_newgrad .page-heading-ja,
+.single-recruit_midcareer .page-heading-ja {
+	position: absolute;
+	left: -9999px;
+}
+.page-recruit .page-heading-en,
+.is-recruit-child .page-heading-en,
+.single-recruit_newgrad .page-heading-en,
+.single-recruit_midcareer .page-heading-en {
+	font-size: 11rem;
+	font-weight: 600;
+	line-height: 110px;
+	letter-spacing: 0.05em;
+	z-index: 1;
+}
+.page-recruit .heading_decor,
+.is-recruit-child .heading_decor,
+.single-recruit_newgrad .heading_decor,
+.single-recruit_midcareer .heading_decor {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 468px;
+	height: 120px;
+	background: url("../img/index/ttl_top_recruit.png") no-repeat center/contain;
+	z-index: 2;
+}
+@media screen and (max-width: 640px) {
+	.page-recruit .page-heading,
+	.is-recruit-child .page-heading,
+	.single-recruit_newgrad .page-heading,
+	.single-recruit_midcareer .page-heading {
+		height: 200px;
+		padding: 70px 20px 0;
+		text-align: center;
+	}
+	.page-recruit .recruit-heading,
+	.is-recruit-child .recruit-heading,
+	.single-recruit_newgrad .recruit-heading,
+	.single-recruit_midcareer .recruit-heading {
+		width: 100%;
+		max-width: 400px;
+		padding: 0 0 10px 0;
+	}
+	.page-recruit .page-heading-en,
+	.is-recruit-child .page-heading-en,
+	.single-recruit_newgrad .page-heading-en,
+	.single-recruit_midcareer .page-heading-en {
+		font-size: 6rem;
+		line-height: 80px;
+	}
+	.page-recruit .heading_decor,
+	.is-recruit-child .heading_decor,
+	.single-recruit_newgrad .heading_decor,
+	.single-recruit_midcareer .heading_decor {
+		width: 258px;
+		height: 66px;
+	}
+}
+.contents-recruit {
+	position: relative;
+	background: #EDF3F7;
+}
+.recruit-front-main {
+	position: relative;
+	padding: 30px 0 100px;
+	overflow: hidden;
+}
+.contents-recruit .loop-slider-bg {
+	position: absolute;
+	top: 200px;
+}
+.contents-recruit .loop-slider-wrapper {
+	gap: 10px;
+	margin: 0 0 40px;
+	background: #EDF3F7;
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+	z-index: 0;
+}
+.contents-recruit .loop-slider {
+	gap: 20px;
+}
+.contents-recruit .loop-slide {
+	width: calc(100vw / 6);
+}
+.contents-recruit .loop-slide img {
+	border-radius: 10px;
+}
+#contents.contents-recruit .intro-text {
+	margin-bottom: 50px;
+	font-size: 1.8rem;
+	line-height: 2.4;
+}
+#contents.contents-recruit .intro-text span {
+	display: inline-block;
+}
+.recruit-section {
+	position: relative;
+	margin: 0 0 30px;
+	border-radius: 15px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+	z-index: 10;
+	overflow: hidden;
+}
+.recruit-section a {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 30px;
+	padding: 30px;
+	background: #FFF;
+	text-decoration: none;
+}
+.recruit-section--midcareer a {
+	flex-direction: row-reverse;
+}
+.recruit-section__photo {
+	display: flex;
+	position: relative;
+	width: 440px;
+	max-width: 45%;
+	overflow: hidden;
+}
+.recruit-section__photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.8s ease;
+	transform-origin: center center;
+}
+.recruit-section a:hover .recruit-section__photo img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.recruit-section__body {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	flex: 1;
+	padding: 0 0 0 30px;
+}
+.recruit-section a:hover .recruit-section__body {
+	opacity: 0.7;
+}
+.recruit-section__body .section-header {
+	padding: 0 0 40px;
+}
+.recruit-section__body .section-ja {
+	font-size: 6.4rem;
+	color: #3E414D;
+}
+.recruit-section--newgrad .section-ja span {
+	color: #069FEF;
+}
+.recruit-section--midcareer .section-ja span {
+	color: #BA3232;
+}
+#contents .recruit-section .section-en {
+	margin: 20px 0 0;
+}
+#contents .recruit-section--newgrad .section-en {
+	color: #069FEF;
+}
+#contents .recruit-section--midcareer .section-en {
+	color: #BA3232;
+}
+.recruit-section__body div.link_btn {
+	position: relative;
+	display: block;
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	padding: 15px 20px 15px 0;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 600;
+	transition: all 0.4s ease;
+	overflow: hidden;
+}
+.recruit-section--newgrad .recruit-section__body div.link_btn {
+	background: #069FEF;
+}
+.recruit-section--midcareer .recruit-section__body div.link_btn {
+	background: #BA3232;
+}
+.recruit-section--newgrad .link_btn .icon-arrow__path {
+	stroke: #069FEF;
+}
+.recruit-section--midcareer .link_btn .icon-arrow__path {
+	stroke: #BA3232;
+}
+.recruit-section__body div.link_btn .link_btn_arrow {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px;
+	height: 20px;
+	transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.recruit-section a:hover .link_btn_arrow {
+	right: 17px;
+}
+@media screen and (max-width: 960px) {
+	#contents.contents-recruit .intro-text {
+		font-size: 1.6rem;
+	}
+	.recruit-section a {
+		gap: 20px;
+	}
+	.recruit-section__body {
+		padding: 0 0 0 10px;
+	}
+	.recruit-section__body .section-ja {
+		font-size: 4.8rem;
+	}
+	#contents .recruit-section .section-en {
+		font-size: 1.8rem;
+	}
+	.recruit-section__body div.link_btn {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (max-width: 640px) {
+	.recruit-front-main {
+		padding: 60px 0 30px;
+	}
+	.contents-recruit .loop-slider-bg {
+		top: 0;
+	}
+	.contents-recruit .loop-slide {
+		width: calc(100vw / 4);
+	}
+	.recruit-section {
+		max-width: 420px;
+		margin: 0 auto 30px;
+	}
+	.recruit-section a {
+		flex-direction: column;
+		padding: 20px;
+	}
+	.recruit-section__photo {
+		max-width: 100%;
+		width: 100%;
+	}
+	.recruit-section__photo img {
+		height: 200px;
+		object-fit: cover;
+		object-position: center top;
+	}
+	.recruit-section__body {
+		flex-direction: column;
+		align-items: flex-start;
+		align-content: stretch;
+		width: 100%;
+		padding: 0;
+	}
+	.recruit-section__body .section-header {
+		padding: 0 0 20px;
+	}
+	.recruit-section__body .section-ja {
+		font-size: 3.2rem;
+	}
+	#contents .recruit-section .section-en {
+		margin: 10px 0 0;
+		font-size: 1.2rem;
+	}
+}
+
+/*-----------------------------------
+	recruit-intro
+-----------------------------------*/
+#contents.contents-recruit--newgrad,
+#contents.contents-recruit--midcareer {
+	padding: 0;
+}
+.recruit-intro-outer {
+	margin: 40px 0 100px;
+    position: relative;
+}
+.recruit-intro-photo {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45vw;
+    max-width: 50%;
+}
+.recruit-intro-photo img {
+    width: 100%;
+    height: 400px;
+    display: block;
+	object-fit: cover;
+}
+.recruit-intro-wrap {
+    margin-right: 45vw;
+}
+.recruit-page-title {
+	margin: 0 0 40px;
+}
+.recruit-intro-text h1 > span {
+	display: block;
+}
+.recruit-page-title-ja {
+	margin: 0 0 0.3em;
+	font-size: 6.4rem;
+	line-height: 1.2;
+}
+.recruit-page-title-en {
+	font-size: 2rem;
+}
+.contents-recruit--newgrad .recruit-page-title-ja span,
+.contents-recruit--newgrad .recruit-page-title-en,
+.page-entry-newsnewgrad .recruit-page-title-ja span,
+.page-entry-newsnewgrad .recruit-page-title-en,
+.page-template-page-entry-newsnewgrad .recruit-page-title-ja span,
+.page-template-page-entry-newsnewgrad .recruit-page-title-en {
+	color: #069FEF;
+}
+.contents-recruit--midcareer .recruit-page-title-ja span,
+.contents-recruit--midcareer .recruit-page-title-en,
+.page-entry-midcareer .recruit-page-title-ja span,
+.page-entry-midcareer .recruit-page-title-en,
+.page-template-page-entry-midcareer .recruit-page-title-ja span,
+.page-template-page-entry-midcareer .recruit-page-title-en {
+	color: #BA3232;
+}
+.recruit-intro-text .intro-text {
+	text-align: left;
+}
+@media (max-width: 960px) {
+	.recruit-intro-outer {
+		margin: 20px 0 40px;
+		position: relative;
+	}
+    .recruit-intro-photo {
+        position: static;
+        transform: none;
+        width: calc(100% - 20px);
+        max-width: none;
+		margin-left: 20px;
+        margin-top: 20px;
+    }
+	.recruit-intro-photo img {
+		height: auto;
+		max-height: 360px;
+		object-position: center top;
+	}
+    .recruit-intro-wrap {
+        margin-right: 0;
+    }
+}
+@media (max-width: 640px) {
+	.recruit-page-title-ja {
+		font-size: 3.2rem;
+	}
+	.recruit-page-title-en {
+		font-size: 1.2rem;
+	}
+	.recruit-intro-photo img {
+		max-height: 260px;
+	}
+}
+
+.recruit-section-message h2 {
+	margin: 0 0 .5em;
+	font-size: 3.2rem;
+}
+.recruit-section-message h2 span {
+	display: inline-block;
+}
+@media (max-width: 640px) {
+	.recruit-section-message h2 {
+		font-size: 1.8rem;
+	}
+}
+
+/*-----------------------------------
+	recruit-section-details
+-----------------------------------*/
+.recruit-section-details {
+	margin: 100px 0 0;
+}
+.recruit-section-details.color-section {
+	padding-bottom: 200px;
+}
+.recruit-section-details .section-header {
+	text-align: center;
+}
+#contents.contents-recruit--newgrad .section-header .section-en {
+	color: #069FEF;
+}
+#contents.contents-recruit--midcareer .section-header .section-en {
+	color: #BA3232;
+}
+@media (max-width: 640px) {
+	.recruit-section-details.color-section {
+		padding-bottom: 100px;
+	}
+}
+/*-----------------------------------
+	recruit-card-list
+-----------------------------------*/
+.recruit-card-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	gap: 40px;
+	margin: 40px 0 0;
+}
+.recruit-card {
+	border-radius: 15px;
+}
+a.recruit-card__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	height: 100%;
+	padding: 30px;
+	border-radius: 12px;
+	background: #FFF;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	color: #272C3C;
+	transition: transform 0.3s ease;
+}
+#contents .recruit-card p {
+	margin: 0 0 1em;
+}
+.recruit-card__label {
+	display: inline-block;
+	margin: 0 0 10px;
+	padding: 5px 10px;
+	background: #069FEF;
+	color: #FFF;
+	line-height: 1.2em;
+}
+.contents-recruit--midcareer .recruit-card__label {
+	background: #BA3232;
+}
+.recruit-card__title {
+	margin: 0 0 15px;
+	font-size: 2.4rem;
+	line-height: 1.2em;
+}
+#contents p.recruit-card__salary {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin: 4px 0 10px;
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: #0069B7;
+}
+.recruit-card__salary .salary-label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	padding: 0 0 5px;
+	border: solid 4px #EAEFF0;
+	border-radius: 50%;
+	font-size: 1.2rem;
+	text-align: center;
+	flex-shrink: 0;
+	line-height: 1.1;
+}
+.recruit-card__salary .salary-label::before {
+	display: block;
+	content: "¥\A";
+	padding: 0;
+	white-space: pre;
+	font-size: 2.4rem;
+}
+.recruit-card__salary .salary-value {
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.recruit-card__desc {
+	line-height: 1.6;
+}
+.recruit-card__text .link_btn {
+	width: 240px;
+	max-width: 100%;
+	padding: 8px 20px 8px 0;
+	font-size: 1.8rem;
+}
+@media (max-width: 1200px) {
+	.recruit-card-list {
+		gap: 30px;
+	}
+	a.recruit-card__inner {
+		padding: 20px;
+	}
+}
+@media (max-width: 960px) {
+	.recruit-card-list {
+		justify-content: center;
+		gap: 20px;
+		margin: 20px 0 0;
+	}
+	#contents .recruit-card p {
+		margin: 0 0 10px;
+	}
+	.recruit-card__title {
+		font-size: 1.8rem;
+	}
+	.recruit-card__label {
+		margin: 0 0 10px;
+		font-size: 1.4rem;
+	}
+	.recruit-card__salary {
+		gap: 10px;
+	}
+	.recruit-card__salary .salary-label {
+		width: 50px;
+		height: 50px;
+		padding: 0 0 8px;
+		font-size: 1.2rem;
+	}
+	.recruit-card__salary .salary-label::before {
+		padding: 3px 0 0;
+		font-size: 2rem;
+	}
+	.recruit-card__salary .salary-value {
+		font-size: 1.6rem;
+	}
+	.recruit-card__text .link_btn {
+		padding: 8px 20px 8px 0;
+		font-size: 1.6rem;
+	}
+	.recruit-card__text .link_btn .link_btn_arrow {
+		right: 10px;
+	}
+}
+/* NEW GRADUATE RECRUITMENT */
+.contents-recruit--newgrad .recruit-card {
+	width: calc(50% - 20px);
+}
+.contents-recruit--newgrad .recruit-card__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+	max-width: 55%;
+	transition: opacity 0.3s ease;
+}
+.contents-recruit--newgrad a:hover .recruit-card__text {
+	opacity: 0.7;
+}
+.contents-recruit--newgrad .recruit-card__desc {
+	flex-grow: 0;
+}
+.contents-recruit--newgrad .recruit-card__text .link_btn {
+	align-self: flex-start;
+}
+.contents-recruit--newgrad .recruit-card__photo {
+	flex: 0 0 220px;
+	max-width: 40%;
+}
+.contents-recruit--newgrad .recruit-card__photo img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.recruit-card__empty {
+	text-align: center;
+}
+@media (max-width: 960px) {
+	.contents-recruit--newgrad .recruit-card {
+		width: 100%;
+		max-width: 600px;
+	}
+	.contents-recruit--newgrad .recruit-card__inner {
+		padding: 20px;
+		gap: 20px;
+	}
+	.contents-recruit--newgrad .recruit-card__photo {
+		flex: 0 1 40%;
+		max-width: 40%;
+	}
+	.contents-recruit--newgrad .recruit-card__photo img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 220 / 326;
+		object-fit: cover;
+	}
+}
+@media (max-width: 640px) {
+	.contents-recruit--newgrad .recruit-card__inner {
+		padding: 16px;
+		gap: 16px;
+	}
+	.contents-recruit--newgrad .recruit-card__photo img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 220 / 326;
+		object-fit: cover;
+	}
+}
+
+/* MID-CAREER RECRUITMENT INFORMATIONS */
+.contents-recruit--midcareer .recruit-card-list {
+	max-width: 1040px;
+	margin: 40px auto 0;
+}
+.contents-recruit--midcareer .recruit-card {
+	width: 320px;
+	height: 475px;
+	cursor: pointer;
+	position: relative;
+}
+.contents-recruit--midcareer .recruit-card .card-front,
+.contents-recruit--midcareer .recruit-card .card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	backface-visibility: hidden;
+	transition: transform 0.6s;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.contents-recruit--midcareer .recruit-card .card-front {
+	padding: 0 20px 20px;
+	background: #FFF;
+	transform: rotateY(0deg);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contents-recruit--midcareer .recruit-card .card-back {
+	position: relative;
+	background: #069FEF;
+	transform: rotateY(180deg);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contents-recruit--midcareer .recruit-card .card-back a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.contents-recruit--midcareer .recruit-card .card-back a,
+.contents-recruit--midcareer .recruit-card .card-back a:link,
+.contents-recruit--midcareer .recruit-card .card-back a:visited {
+	text-decoration: none;
+}
+.contents-recruit--midcareer .recruit-card .card-back a:hover {
+	color:#3E414D;
+	text-decoration: none;
+}
+.contents-recruit--midcareer .recruit-card .card-back img {
+    opacity: 0.2;
+}
+.contents-recruit--midcareer .recruit-card .card-front figure {
+	margin: 0 -20px 20px;
+}
+.contents-recruit--midcareer .recruit-card .card-front img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.contents-recruit--midcareer .card-front .link_btn {
+	display: none;
+	width: 150px;
+	padding: 8px 20px 8px 0;
+	font-size: 1.6rem;
+}
+.contents-recruit--midcareer .card-front .link_btn .link_btn_arrow {
+	width: 16px;
+	height: 16px;
+	right: 10px;
+}
+.contents-recruit--midcareer .card-back .link_btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 240px;
+	padding: 10px 20px 10px 0;
+	background: #FFF;
+	color: #069FEF;
+	font-size: 1.8rem;
+}
+.contents-recruit--midcareer .card-back .link_btn .icon-arrow__circle {
+    fill: rgb(6, 159, 239);
+}
+.contents-recruit--midcareer .card-back .link_btn .icon-arrow__path {
+	stroke: rgb(255, 255, 255);
+}
+@media screen and (min-width: 961px) {
+	.contents-recruit--midcareer .recruit-card:hover > .card-front {
+		transform: rotateY(180deg);
+	}
+	.contents-recruit--midcareer .recruit-card:hover > .card-back {
+		transform: rotateY(0deg);
+	}
+}
+@media (max-width: 1155px) {
+	.contents-recruit--midcareer .recruit-card-list {
+		max-width: 680px;
+	}
+}
+@media (max-width: 960px) {
+	.contents-recruit--midcareer .card-front .link_btn {
+		display: block;
+	}
+}
+
+/*-----------------------------------
+	recruit-detail
+-----------------------------------*/
+.recruit-detail__head {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 0 0;
+}
+.recruit-detail__head-main {
+	flex: 1 1 auto;
+}
+.recruit-detail__label {
+	display: inline-block;
+    margin: 0 0 10px;
+    padding: 8px 15px;
+    color: #FFF;
+    line-height: 1.2em;
+}
+.single-recruit_newgrad .recruit-detail__label {
+    background: #069FEF;
+}
+.single-recruit_midcareer .recruit-detail__label {
+    background: #BA3232;
+}
+.recruit-detail__title {
+	font-size: 4rem;
+	margin: 0 0 1em;
+	line-height: 1.4;
+}
+.recruit-detail__image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.recruit-detail__card {
+	flex: 0 0 320px;
+	max-width: 320px;
+}
+.recruit-detail__card img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 16px;
+	box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+	z-index: 2;
+}
+.recruit-detail__image {
+	position: relative;
+	z-index: 1;
+}
+.recruit-detail__image::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 0;
+	width: 200vw;
+	height: 100%;
+	background: #EDF3F7;
+	z-index: -1;
+}
+
+@media (max-width: 960px) {
+  .recruit-detail__head {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0 40px;
+  }
+  .recruit-detail__head-main {
+    width: 100%;
+    text-align: left;
+  }
+  .recruit-detail__title {
+    font-size: 3rem;
+    margin-bottom: 0.8em;
+  }
+  .recruit-detail__card {
+    flex: 0 0 auto;
+    max-width: 260px;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+	.recruit-detail__head {
+		padding: 20px 0 30px;
+		gap: 24px;
+	}
+	.recruit-detail__label {
+		padding: 6px 12px;
+		font-size: 1.2rem;
+	}
+	.recruit-detail__title {
+		font-size: 2.4rem;
+	}
+	.recruit-detail__card {
+		max-width: 220px;
+		width: 70%;
+	}
+	.recruit-detail__image::before {
+		width: 100vw; /* 画面幅ぴったりに調整 */
+	}
+}
+
+.recruit-detail__section .section-header {
+	padding: 80px 0 0;
+}
+.recruit-detail__section h2 {
+	font-size: 3.2rem;
+}
+.recruit-detail__section dt {
+	font-weight: 600;
+}
+.recruit-detail__section dd {
+	margin-bottom: 1em;
+}
+.recruit-detail__strong {
+	font-size: 1.8rem;
+}
+.recruit-detail__entry {
+	margin: 60px 0;
+}
+.recruit-detail__entry a.link_btn {
+	position: relative;
+	display: block;
+	width: 560px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 24px 30px 24px 0;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 2.4rem;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	transition: all 0.4s ease;
+	overflow: hidden;
+}
+.single-recruit_newgrad .recruit-detail__entry a.link_btn {
+	background: #069FEF;
+}
+.single-recruit_midcareer .recruit-detail__entry a.link_btn {
+	background: #B50013;
+}
+.recruit-detail__entry a.link_btn .link_btn_arrow {
+	right: 30px;
+}
+.recruit-detail__entry a.link_btn:hover .link_btn_arrow {
+	right: 26px;
+}
+.single-recruit_newgrad .recruit-detail__entry a.link_btn .icon-arrow__path {
+	stroke: #069FEF;
+}
+.single-recruit_midcareer .recruit-detail__entry a.link_btn .icon-arrow__path {
+	stroke: #B50013;
+}
+.single-recruit_midcareer .recruit-detail__entry a.link_btn::before {
+	background: #89000E;
+}
+@media (max-width: 960px) {
+	.recruit-detail__entry {
+		margin: 40px 0;
+	}
+	.recruit-detail__entry a.link_btn {
+		width: 500px;
+		max-width: 100%;
+		padding: 20px 30px 20px 0;
+		font-size: 2rem;
+	}
+	.recruit-detail__strong {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 640px) {
+	.recruit-detail__section .section-header {
+		padding: 40px 0 0;
+	}
+	.recruit-detail__section h2 {
+		font-size: 2rem;
+	}
+	.recruit-detail__entry a.link_btn {
+		padding: 15px 20px 15px 0;
+		font-size: 1.6rem;
+	}
+	.recruit-detail__entry a.link_btn .link_btn_arrow {
+		right: 20px;
+	}
+	.recruit-detail__entry a.link_btn:hover .link_btn_arrow {
+		right: 17px;
+	}
+}
+
+/*-----------------------------------
+	ENTRY
+-----------------------------------*/
+.contents-entry .recruit-intro-text,
+.contents-entry .recruit-intro-text .intro-text {
+	text-align: center;
+}
+.contents-entry .recruit-intro-text h1 {
+	margin: 1.5em 0;
+}
+.contents-entry .recruit-section-message {
+	margin: 60px 0;
+}
+.contents-entry .recruit-section-message h2 {
+	text-align: center;
+}
+.contents-entry .recruit-section-message ul {
+	margin: 1.5em 0;
+}
+.contents-recruit--newgrad .c-form h2,
+.page-template-page-entry-newsnewgrad-php .c-form h2 {
+	background: #069FEF;
+}
+.page-entry-midcareer .c-form h2 {
+	background: #BA3232;
+}
+@media (max-width: 640px) {
+	.contents-entry .recruit-intro-text h1 {
+		margin: 0 0 1.5em;
+	}
+}
