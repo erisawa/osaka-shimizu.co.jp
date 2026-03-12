@@ -342,7 +342,7 @@ function my_recruit_midcareer_front_meta( $job_position ) {
       'list'  => array(
         '施工・演出企画提案',
         '受発注管理',
-        '催事立会',
+        'イベント立会',
       ),
     ),
 
