@@ -84,60 +84,60 @@ get_header();
                                 <div class="venue-block">
                                     <h3>大阪府</h3>
                                     <ul>
-                                        <li>オリックス劇場</li>
-                                        <li>フェスティバルホール</li>
-                                        <li>Zepp Namba（OSAKA）</li>
-                                        <li>京セラドーム大阪</li>
-                                        <li>大阪城ホール</li>
-                                        <li>Asueアリーナ大阪（大阪市中央体育館）</li>
-                                        <li>エディオンアリーナ大阪（大阪府立体育会館）</li>
-                                        <li>おおきにアリーナ舞洲（舞洲アリーナ）</li>
-                                        <li>ヤンマースタジアム長居（大阪市長居陸上競技場）</li>
+                                        <li>Asueアリーナ大阪</li>
                                         <li>インテックス大阪</li>
-                                        <li>ユニバーサル・スタジオ・ジャパン（USJ）</li>
                                         <li>靭公園</li>
-                                        <li>万博記念公園</li>
-                                        <li>Panasonic Stadium Suita</li>
-                                        <li>東大阪市花園ラグビー場</li>
+                                        <li>エディオンアリーナ大阪（大阪府立体育会館）</li>
+                                        <li>おおきにアリーナ舞洲</li>
+                                        <li>大阪城ホール</li>
                                         <li>大阪中之島美術館</li>
+                                        <li>オリックス劇場</li>
+                                        <li>京セラドーム大阪</li>
                                         <li>Zepp Osaka Bayside</li>
+                                        <li>Zepp Namba（OSAKA）</li>
+                                        <li>Panasonic Stadium Suita</li>
+                                        <li>万博記念公園</li>
+                                        <li>東大阪市花園ラグビー場</li>
+                                        <li>フェスティバルホール</li>
                                         <li>BOAT RACE 住之江</li>
+                                        <li>ヤンマースタジアム長居（大阪市長居陸上競技場）</li>
                                     </ul>
                                 </div>
                                 <div class="venue-block">
                                     <h3>兵庫県</h3>
                                     <ul>
-                                        <li>阪神甲子園球場</li>
-                                        <li>ワールド記念ホール（神戸ポートアイランドホール）</li>
-                                        <li>ブルボンビーンズドーム（兵庫県立三木総合防災公園屋内テニス場）</li>
+                                        <li>GLION ARENA KOBE</li>
+                                        <li>ノエビアスタジアム神戸</li>
                                         <li>阪神競馬場</li>
+                                        <li>阪神甲子園球場</li>
+                                        <li>ブルボンビーンズドーム（兵庫県立三木総合防災公園屋内テニス場）</li>
                                         <li>ほっともっとフィールド神戸（神戸総合運動公園野球場）</li>
-                                        <li>ノエビアスタジアム神戸（御崎公園球場）</li>
+                                        <li>ワールド記念ホール（神戸ポートアイランドホール）</li>
                                     </ul>
                                 </div>
                                 <div class="venue-block">
                                     <h3>京都府</h3>
                                     <ul>
+                                        <li>梅小路公園</li>
+                                        <li>京都競馬場</li>
                                         <li>京都劇場</li>
                                         <li>サンガスタジアム by KYOCERA（京都府立京都スタジアム）</li>
-                                        <li>京都競馬場</li>
-                                        <li>梅小路公園</li>
                                     </ul>
                                 </div>
                                 <div class="venue-block">
                                     <h3>奈良県</h3>
                                     <ul>
-                                        <li>なら100年会館</li>
                                         <li>キトラ古墳壁画体験館 四神の館</li>
                                         <li>国営飛鳥歴史公園</li>
+                                        <li>なら100年会館</li>
                                     </ul>
                                 </div>
                                 <div class="venue-block">
                                     <h3>その他</h3>
                                     <ul>
                                         <li>サンドーム福井（福井県産業振興施設）</li>
-                                        <li>和歌山ビックホエール</li>
                                         <li>鳴門・大塚スポーツパーク ポカリスエットスタジアム（徳島県鳴門総合運動公園陸上競技場）</li>
+                                        <li>和歌山ビッグホエール</li>
                                     </ul>
                                 </div>
                             </div>
@@ -188,7 +188,7 @@ get_header();
                                     <div class="swiper-slide">
                                         <div class="card-front">
                                             <figure>
-                                                <a href="#biz02"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card02.jpg" alt="資材管理" width="320" height="475" /></a>
+                                                <a href="#biz02"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card02.jpg?2603" alt="資材管理" width="320" height="475" /></a>
                                             </figure>
                                         </div>
                                         <div class="card-back">
@@ -263,7 +263,7 @@ get_header();
                                     <div class="swiper-slide">
                                         <div class="card-front">
                                             <figure>
-                                                <a href="#biz05"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card05.jpg" alt="" width="320" height="475" /></a>
+                                                <a href="#biz05"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card05.jpg?2603" alt="" width="320" height="475" /></a>
                                             </figure>
                                         </div>
                                         <div class="card-back">
@@ -288,7 +288,7 @@ get_header();
                                     <div class="swiper-slide">
                                         <div class="card-front">
                                             <figure>
-                                                <a href="#biz06"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card06.jpg" alt="" width="320" height="475" /></a>
+                                                <a href="#biz06"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card06.jpg?2603" alt="" width="320" height="475" /></a>
                                             </figure>
                                         </div>
                                         <div class="card-back">
@@ -507,7 +507,7 @@ get_header();
                                 <!-- スタッフコメント -->
                                 <section class="business-detail__comment">
                                     <figure class="business-detail__comment-media">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card02.jpg" alt="" width="240" height="356" loading="lazy" class="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card02.jpg?2603" alt="" width="240" height="356" loading="lazy" class="">
                                     </figure>
                                     <div class="business-detail__comment-body">
                                         <h4 class="business-detail__comment-title">スタッフコメント</h4>
@@ -774,7 +774,7 @@ get_header();
                                 <!-- スタッフコメント -->
                                 <section class="business-detail__comment">
                                     <figure class="business-detail__comment-media">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card05.jpg" alt="" width="240" height="356" loading="lazy" class="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card05.jpg?2603" alt="" width="240" height="356" loading="lazy" class="">
                                     </figure>
                                     <div class="business-detail__comment-body">
                                         <h4 class="business-detail__comment-title">スタッフコメント</h4>
@@ -849,7 +849,7 @@ get_header();
                                 <!-- スタッフコメント -->
                                 <section class="business-detail__comment">
                                     <figure class="business-detail__comment-media">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card06.jpg" alt="" width="240" height="356" loading="lazy" class="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/business/business_card06.jpg?2603" alt="" width="240" height="356" loading="lazy" class="">
                                     </figure>
                                     <div class="business-detail__comment-body">
                                         <h4 class="business-detail__comment-title">スタッフコメント</h4>
